@@ -7,6 +7,13 @@ class App extends React.Component{
         this.state = store.getState()
     }
 
+componentDidMount () {
+    this.unsubscribe = store.subscribe(() => this.setState(store.getState()))
+}
+
+componentWillUnmount() {
+    this.unsubscribe();
+}
     render(){
     return (
     <div id="pixelate">
