@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 html {
@@ -21,13 +21,33 @@ td {
   transition: background-color 0.5s ease;
 }
 
-.red {background-color: red;}
-.orange {background-color: orange;}
-.yellow {background-color: yellow;}
-.green {background-color: green;}
-.blue {background-color: blue;}
-.indigo {background-color: indigo;}
-.violet {background-color: violet;}
-.black {background-color: black;}
-.white {background-color: white;}
-.brown {background-color: brown;}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.indigo {
+  background-color: indigo;
+}
+.violet {
+  background-color: violet;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+.brown {
+  background-color: brown;
+}
